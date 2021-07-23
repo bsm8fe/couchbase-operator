@@ -1,0 +1,14 @@
+# Default values for couchbase-operator chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# Select what to install
+install:
+  # -- install the couchbase operator
+  couchbaseOperator: true
+  # -- install the admission controller
+  admissionController: true
+  # -- install couchbase cluster
+  couchbaseCluster: false
+  # -- install sync gateway
+  syncGateway: false
